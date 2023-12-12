@@ -1,14 +1,14 @@
 <?php
 
-namespace AttendanceContext\App;
+namespace Attendance\AttendanceContext\App;
 
+use Attendance\AttendanceContext\Domain\Activity;
+use Attendance\AttendanceContext\Domain\ActivityRepositoryInterface;
+use Attendance\AttendanceContext\Domain\ActivitySpecRepositoryInterface;
+use Attendance\AttendanceContext\Domain\Events\ActivityStarted;
+use Attendance\AttendanceContext\Domain\PersonRepositoryInterface;
 use Attendance\Kernel\Infra\Messaging\MessageBusInterface;
 use Attendance\Kernel\Infra\Moment\MomentInterface;
-use AttendanceContext\Domain\Activity;
-use AttendanceContext\Domain\ActivityRepositoryInterface;
-use AttendanceContext\Domain\ActivitySpecRepositoryInterface;
-use AttendanceContext\Domain\Events\ActivityStarted;
-use AttendanceContext\Domain\PersonRepositoryInterface;
 
 readonly class ActivityAppService
 {

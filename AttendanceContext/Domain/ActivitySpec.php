@@ -1,6 +1,6 @@
 <?php
 
-namespace AttendanceContext\Domain;
+namespace Attendance\AttendanceContext\Domain;
 
 use Attendance\Kernel\Infra\OptimisticLockingTrait;
 

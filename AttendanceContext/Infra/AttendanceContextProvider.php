@@ -1,10 +1,10 @@
 <?php
 
-namespace AttendanceContext\Infra;
+namespace Attendance\AttendanceContext\Infra;
 
+use Attendance\AttendanceContext\App\Sagas\ActivitySpecSaga;
+use Attendance\AttendanceContext\Domain\Events\ActivityStarted;
 use Attendance\Kernel\Infra\Messaging\MessageBusInterface;
-use AttendanceContext\App\Sagas\ActivitySpecSaga;
-use AttendanceContext\Domain\Events\ActivityStarted;
 
 readonly class AttendanceContextProvider
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AttendanceContext\App;
+namespace Attendance\AttendanceContext\App;
 
-use AttendanceContext\Domain\Person;
-use AttendanceContext\Domain\PersonRepositoryInterface;
+use Attendance\AttendanceContext\Domain\Person;
+use Attendance\AttendanceContext\Domain\PersonRepositoryInterface;
 
 readonly class PersonAppService
 {

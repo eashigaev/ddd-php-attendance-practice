@@ -1,8 +1,8 @@
 <?php
 
-namespace AttendanceContext\Domain\Events;
+namespace Attendance\AttendanceContext\Domain\Events;
 
-use AttendanceContext\Domain\Activity;
+use Attendance\AttendanceContext\Domain\Activity;
 
 class ActivityStarted
 {

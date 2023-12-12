@@ -1,10 +1,10 @@
 <?php
 
-namespace AttendanceContext\App;
+namespace Attendance\AttendanceContext\App;
 
-use AttendanceContext\Domain\ActivitySpec;
-use AttendanceContext\Domain\ActivitySpecRepositoryInterface;
-use AttendanceContext\Domain\PersonRepositoryInterface;
+use Attendance\AttendanceContext\Domain\ActivitySpec;
+use Attendance\AttendanceContext\Domain\ActivitySpecRepositoryInterface;
+use Attendance\AttendanceContext\Domain\PersonRepositoryInterface;
 
 readonly class ActivitySpecAppService
 {

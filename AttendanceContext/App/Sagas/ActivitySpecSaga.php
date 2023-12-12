@@ -1,10 +1,10 @@
 <?php
 
-namespace AttendanceContext\App\Sagas;
+namespace Attendance\AttendanceContext\App\Sagas;
 
-use AttendanceContext\App\ActivitySpecAppService;
-use AttendanceContext\Domain\Events\ActivityStarted;
-use AttendanceContext\Domain\Person;
+use Attendance\AttendanceContext\App\ActivitySpecAppService;
+use Attendance\AttendanceContext\Domain\Events\ActivityStarted;
+use Attendance\AttendanceContext\Domain\Person;
 
 readonly class ActivitySpecSaga
 {
